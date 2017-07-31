@@ -1,0 +1,661 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    color: #000;
+}
+
+body p {
+    line-height: 1.3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*******************************/
+/*********** HEADER  ***********/
+/*******************************/
+
+header {
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1.5px solid #413839;
+    background-color: lightgray;
+}
+
+header img {
+    display: block;
+    float: left;
+}
+
+header h2 {
+    display: inline;
+    margin-left: .25rem;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+header li {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-right: 1rem;
+    float: right; 
+}
+
+.nav li:hover {
+    color: black;
+}
+
+
+.logo {
+    margin-left: 1.5rem;
+}
+
+.nav {
+    margin-right: 1.5rem;
+}
+
+.signin a {
+    color: white;
+    border-radius: 5%;
+    border: 1px solid #524949;
+    background-color: #524949;
+    padding: 1rem;
+}
+
+.signin a:hover {
+    color: white;
+    transition: ease-in 50ms;
+    background-color: #A6747A;
+    border: 1px solid #A6747A;
+}
+
+/*******************************/
+/****** SECTION 1: BANNER ******/
+/*******************************/
+
+#content-container {
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start;
+    align-items: center;   
+    background-color: #6E6881;
+    color: #2C2424;
+    border-bottom: 2px solid #534747;
+}
+
+#content-container img {
+    width: 60%;
+    padding: 24px 40px 32px 32px;
+
+}
+
+.content h1 {
+    font-weight: 700;
+    margin-top: 3rem;
+    font-size: 2.4rem;
+    padding-right: 40px;
+}
+
+.content h3 {
+    font-weight: 300;
+    margin-top: 2rem;
+    padding-right: 60px;
+}
+
+ .content p {
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    max-width: 22rem;
+    background-color: #524949;
+    font-weight: 300;
+    padding: 1rem 0 1rem 0;
+    border-radius: 5%;
+ }
+
+ .button:hover {
+    border-radius: 10%;
+    transition: ease-in 50ms;
+    background-color: #A6747A; 
+ }
+
+
+
+/*******************************/
+/***** SECTION 2: CLASSES ******/
+/*******************************/
+
+#section2 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem 1.5rem;
+    border-bottom: 2px solid #413839;
+    background-color: lightgray;
+}
+
+#section2 img {
+    margin-bottom: 2rem;
+    display: inline;
+    float: left;
+    max-width: 100%;
+}
+
+#section2 p {
+    display: inline;
+    float: left;
+}
+
+#section2 h1 {
+    margin-top: 0;
+}
+
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+}
+
+.main-section p {
+    margin-top: 16px;
+}
+
+.main-section .secondary-par {
+    margin-top: 4rem;
+}
+
+/* SECTION 2: Side Section */
+
+#side-section-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 2rem 1.5rem 2rem 1rem;
+    height: 100%;
+    border-left: 2px solid #534747;
+}
+
+.side-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    width: 26rem;
+}
+
+#side-section-container img {
+    max-width: 35%;
+    margin-right: 1rem; 
+}
+
+#side-section-container content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#side-section-container h3 {
+    margin: 0 0 16px 0;
+
+}
+
+#side-section-container p {
+    margin-top: 0;
+    font-size: 16px;
+}
+
+#side-section-container a {
+    font-size: 16px;
+}
+
+
+/*******************************/
+/***** SECTION 3: LEARNING *****/
+/*******************************/
+
+#learning-section {
+    display: flex;
+    justify-content: flex-start;
+    padding: 2rem;
+    background-color: ;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid #413839;
+    background-color: #6E6881;
+}
+
+#learning-section h1 {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 32px;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+}
+
+.media-card:hover {
+    background-color: #A6747A;
+    border: 1px solid #A6747A;
+}
+
+.media-card {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    text-align: left;
+    align-content: center;
+    width: 25%;
+    margin: 2rem;
+    padding-bottom: 1.5rem;
+    background-color: lightgray;
+    border: 2px solid #534747;
+}
+
+.media-card img {
+    height: 13rem;
+    overflow: hidden;
+}
+
+.media-card h3 {
+    margin: 1rem;
+}
+
+.media-card p {
+    margin-left: 1rem;
+}
+
+.media-card p:first-of-type {
+    margin-top: 0;
+}
+
+#flex-container .secondary-flex-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.exhibit-container video {
+    width: 320px;
+}
+
+/*******************************/
+/****** SECTION 4: THESIS ******/
+/*******************************/
+
+#section4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem 1.5rem;
+    background-color: lightgray;
+}
+
+#section4 h1 {
+    text-align: center;
+    margin: 0 0 2rem 0;
+}
+
+.section4-body {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.left-column {
+    margin: 0 2.5rem 0 0 ;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+}
+
+video {
+    margin-bottom: 2rem;
+    display: inline;
+    float: left;
+    max-width: 100%;
+    margin-top: 0;
+}
+
+.section4-container h3 {
+    margin-bottom: 1rem;
+}
+
+.section4-container p {
+    margin: 0;
+    padding: 0;
+}
+
+/** Exhibit Side Section **/
+
+.right-column {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 26rem;
+}
+
+.right-column-story {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    width: 26rem;
+}
+
+.right-column-story img {
+    width: 35%;
+    margin-right: 1rem;
+}
+
+.right-column img {
+    margin-bottom: 1rem;
+    display: block;
+    float: left;
+    height: auto;
+}
+
+.right-column-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*******************************/
+/*********** FOOTER ***********/
+/*******************************/
+
+.page-end {
+    background-color: #6E6881;
+    color: #000;
+    border-top: 2px solid #534747;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    height: 4rem;
+}
+
+footer p {
+   margin-left: 1rem;
+}
+
+/*******************************/
+/******** MEDIA QUERIES ********/
+/*******************************/
+
+@media screen and (max-width: 1280px) {
+    .mobile-nav {
+        display: none;
+    }
+    
+    .standard-mobile {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    
+/** Header **/
+    .nav {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    header h2 {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+/** SECTION 1 **/
+    #content-container {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        flex-direction: column; 
+    }
+
+    #content-container img {
+        width: 100%;
+        padding: 0;
+    }
+
+    #content-container .button {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0 6rem 2rem 6rem;
+    }
+
+    #content-container  h1, h3 {
+        margin: 2rem 2rem;
+    }
+
+    #content-container h3 {
+        padding: 0;
+        margin: 0 2rem 2rem 2rem;
+    }
+
+     
+/** SECTION 2: Main Section **/
+    #section2 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .main-section {
+        display: none;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .button {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/** SECTION 2: Side Section **/
+    #side-section-container {
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        border-left: 0;
+    }
+
+    .side-section {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: flex-start;
+        align-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #side-section-container img {
+        width: 100%;
+        margin: 0;
+        display: block;
+        height: auto;
+    }
+
+    #mobile-orientation {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .side-section-content h1, p {
+        display: flex;
+        justify-content: flex-start;
+        align-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    #side-section-container img {
+        width: 100%;
+    }
+
+    #mobile-orientation img {
+      
+    }
+
+    #campus-orientation img {
+        width: 100%;
+    }
+
+    #lecture-orientation img {
+        width: 100%;
+    }
+
+
+
+/** SECTION 3: Learning Section **/
+
+   #learning-section {
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       align-content: center;
+       flex-direction: column;
+       padding: 0;
+       margin: 0;
+   }
+
+   #learning-section h1 {
+       margin: 1rem 0;
+       padding: 0;
+   } 
+
+   #flex-container {
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       padding: 0;
+   }
+
+   .media-card {
+       width: auto;
+       display: flex;
+       justify-content: center;
+       align-content: center;
+       margin: .5rem 1rem;
+   }
+
+   .media-card img {
+       display: none;
+   }
+
+   .media-card h3 {
+        transition: hover;
+   }
+
+   .media-card p {
+       display: none;
+   }
+
+   .secondary-flex-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+   }
+
+   .secondary-flex-container:last-of-type {
+       margin-bottom: 1rem;
+   }
+
+/** Section 4: Exhibit Section **/
+   #section4 .section4-container {
+       width: 100;
+   }
+
+   #section4 h1 {
+       margin-bottom: 1rem;
+       font-size: 2rem;
+   }
+
+   .section4-body {
+       display: flex;
+       justify-content: flex-start;
+       flex-direction: column;
+   }
+
+   .left-column {
+       width: 100%;
+   }
+
+   video {
+       max-width: 100%;
+       display: block;
+       margin-bottom: 2rem;
+       height: auto;
+   }
+
+   .right-column-story {
+       display: none;
+   }
+
+   .section4-container h3 {
+       margin-bottom: 3rem;
+   }
+
+   .mobile-none {
+       display: none;
+   }
+
+   #side-section-container img {
+       display: none;
+   }
+
+}
+
